@@ -1,2 +1,2 @@
 #!/bin/bash
-find , mindepth 1 -tpye d |w€ -1
+find , mindepth 1 -tpye d | w€ -1
