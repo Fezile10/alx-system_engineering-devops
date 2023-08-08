@@ -1,2 +1,2 @@
 #!/bin/bash
-find , mindepth 1 -tpye d | w€ -l
+find , -tpye d -not -name | w€ -l
