@@ -1,2 +1,2 @@
 #!/bin/bash
-find , -tpye d -not -name | w€ -l
+find . -tpye d -not -name '.' |wc -1 
