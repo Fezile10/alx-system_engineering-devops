@@ -1,12 +1,8 @@
 #!/usr/bin/env bash
+# Displays the contents of the current directory in list format.
+#   Only displays the part of the name after the first dash. 
 
-# Loop through the files in the current directory
-for file in *; do
-  # Check if the file name starts with a dash
-  if [[ $file == -* ]]; then
-    # Extract the part of the name after the first dash
-    name=$(echo $file | cut -d'-' -f2-)
-    # Print the name in list format
-    echo "- $name"
-  fi
+list=$(ls)
+for i in $list; do
+  echo "$i" | cut -d '-' -f2
 done
